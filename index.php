@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+        <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Albury-Wodonga Multicultural Community Events (AWMCE)</title>
+        <meta name="description" content="Albury-Wodonga Multicultural Community Events (AWMCE)">
+        <link rel="stylesheet" type="text/css" href="bootstrap-5.3.1-dist/bootstrap-5.3.1-dist/css/bootstrap.css">
+        <link rel="stylesheet" href=" https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">   
+        <script src="bootstrap-5.3.1-dist/bootstrap-5.3.1-dist/js/bootstrap.bundle.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="icon" href="favicon.jpg" type="image/gif">
+    </head>
+    <body>
+        <header>
+          <nav class="navbar navbar-absolute fixed-top navbar-expand-lg navbar-light d-inline-block" style="background-color: #FFFFFF;">
+          <div class="container-fluid">
+    <a class="navbar-brand" style="padding-left:6vw; padding-top:0rem; padding-bottom:0rem;" href="index.php">
+        <picture>
+  <source srcset="/AWMCE/brand.jpg" media="(max-width: 1050px)">
+  <source srcset="/AWMCE/navbrand2.jpg">
+  <img class="logo d-inline-block" src="/AWMCE/navbrand2.jpg" alt="logo">
+</picture>
+    </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0" style="padding-right:10vw; padding-top:0rem; padding-bottom:0rem;">
+        <li class="nav-item" style="display: inline-block; margin-left: 4vw;">
+          <a class="nav-link active responsive h5" style="color:#EB1C26;" aria-current="page" href="index.php">Home</a>
+        </li>
+        <li class="nav-item" style="display: inline-block; margin-left: 4vw;">
+          <a class="nav-link responsive h5" href="projects.php">Projects</a>
+        </li>
+        <li class="nav-item" style="display: inline-block; margin-left: 4vw;">
+          <a class="nav-link responsive h5" href="media.php">Media</a>
+        </li>
+        <li class="nav-item" style="display: inline-block; margin-left: 4vw;">
+          <a class="nav-link responsive h5" href="about.php">About</a>
+        </li>
+        <li class="nav-item" style="display: inline-block; margin-left: 4vw;">
+          <a class="nav-link responsive h5" href="#Contact">Contact</a>
+        </li>
+         </ul>
+      </div>
+  </div>
+          </nav>
+        </header>
+            <h1 class="headerpic display-5 text-center"><br><br>Home Page<br></h1>
+    <section class="intropic">
+        <br><br><h1 style="color:#FFB225;font-weight:500;" class="display-3 text-center">We Are</h1>
+        <div style="color:#FFA500;font-family:Times;" class="display-2 text-center text-wrap fw-bold">ALBURY-WODONGA MULTICULTURAL COMMUNITY EVENTS</div>
+        <h1 style="color:#FFD4DE;font-weight:500;" class="display-3 text-center"> The source of <span style="color:red;">care and connection</span> in Albury-Wodonga's multicultural community.</h1><br>
+        <div style="text-align:center">
+        <a class="btn btn-primary btn-lg" href="services.php" role="button">Our Work</a>
+        <a class="btn btn-primary btn-lg" href="clients.php" role="button">About Us</a>
+        </div><br><br>
+    <p class="text-center text-white h1">Advancing multicultural causes.<br>Contributing to a fair Australia.</p><br><br>
+        </section>
+    <section class="about">
+    <p class="text-center"><span class="display-2" style="color:slategrey;font-family:'Brush Script MT', cursive;font-weight:500;">SNAPSHOTS</span></p>
+        <div id="autoplaycarousel" class="carousel slide slideshow" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/AWMCE/team.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="/AWMCE/radio.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="/AWMCE/covid.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#autoplaycarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#autoplaycarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+    </section> 
+    <section id="Contact">
+    <br><br><h1 class="text-center display-3 contact">Contact Us</h1><br>
+        <p class="text-center h1 contact">We are open to collaboration and enquiries!</p><br>
+        <a class="text-center h3" style="color:darkturquoise; display:block;" href="mailto:info.awmce@gmail.com">Email: info.awmce@gmail.com</a><br>
+        <a class="text-center" style="font-size:30px; font-family:Calibri;color:darkturquoise; display:block;" href="tel:0470093613">Telephone: 0470 093 613</a><br>
+        <div class="text-center">
+        <a class="btn btn-primary btn-lg" style="background-color:#3B5998;" href="https://www.facebook.com/save.culture.au/" role="button"><i class="bi bi-facebook"></i></a>
+        <!---<a class="btn btn-primary btn-lg" style="background-color:#FF9090;" href="https://www.instagram.com/abcinmelbourne/reel/C2Lh1BUyhpK/" role="button"><i class="bi bi-instagram"></i></a>--->
+        <a class="btn btn-primary btn-lg" style="background-color:red;" href="https://youtu.be/cksWydnCVVI" role="button"><i class="bi bi-youtube"></i></a>
+            </div><br>
+    </section>
+    <footer class="footer text-center">
+        <br><span id="ccright" class="h6"></span><a href="https://slickdolphin.github.io/suprawebdev/" style="white-space: nowrap;">Supra Web Development</a><br><br>
+    </footer>
+        <script>
+const navLinks = document.querySelectorAll('.nav-item')
+const menuToggle = document.getElementById('navbarSupportedContent')
+const bsCollapse = new bootstrap.Collapse(menuToggle, {toggle:false})
+navLinks.forEach((l) => {l.addEventListener('click', () => { bsCollapse.toggle() })
+})
+            
+$(function () {
+            $(document).click(function (event) {
+                var clickover = $(event.target);
+                var _opened = $(".navbar-collapse").hasClass("navbar-collapse collapse show");
+                if (_opened === true && !clickover.hasClass("navbar-toggler")) {
+                    $("button.navbar-toggler").click();
+                }
+            });
+        });
+        </script>
+        <script>
+    document.getElementById("ccright").innerHTML="&copy; " + new Date().getFullYear() + " - Albury-Wodonga Multicultural Community Events (AWMCE). <br> Website by ";
+</script> 
+        </body>
+</html>

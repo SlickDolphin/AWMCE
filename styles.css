@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+
+.logo {
+  height: 12vh;
+  width: 22vw;
+  }
+
+.nav-link {
+  color: #0067FF;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: #000000;
+}
+
+.nav-link::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #EB1C26;
+  position: relative;
+  bottom: auto;
+  width: 0%;
+  transition: all ease-in-out 250ms;
+}
+
+.nav-link:hover::before {
+  width: 100%;
+}
+
+.intropic { 
+    height: auto;
+    background:
+        url(/AWMCE/brand.jpg)
+        rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-position: 50% 90%;
+    width: auto;
+    background-attachment:scroll;
+    background-size: contain;
+     }
+
+.about {
+    background-color: orange;
+	padding: 40px;
+	text-shadow: 2px 1px 1px #4d4d4d;
+    }
+
+.slideshow {
+    width:60vw;
+    margin:0 auto;
+}
+
+#left {
+    text-align:left;
+}
+
+#centre {
+    text-align:center;
+}
+
+#right {
+    text-align:right;
+}
+
+.headerpic { 
+    background:
+        url(/AWMCE/header.jpg)
+        rgba(0, 0, 0, 0.3);
+    background-blend-mode: darken;
+    background-size: cover;
+    font-weight:bold;
+	color:#ffffff;
+    margin-bottom: 0px;
+    padding-top: 5vh;
+    padding-bottom: 2vh;
+	}
+
+p.services {
+    color: black;
+    }
+
+.projectimg {
+    max-width: 30vw;
+    height: auto;
+}
+
+.clientsintro {
+    margin-left: 1em;
+    margin-right: 1em;
+    }
+
+.aboutpara {
+     color: black; 
+    font-family:sans-serif narrow;
+    background: rgba(255, 255, 255, .7);
+    text-shadow: none;
+}
+
+.about2 {
+    background-image: url("/AWMCE/city.jpg");
+	background-image: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+    height: auto;
+	padding: 10px;
+	text-shadow: 2px 1px 1px #4d4d4d;
+}
+
+.abouttext {
+   color: white;
+    background: rgba(0, 0, 0, .2);
+   }
+
+.contact {
+    font-weight:600;
+    color:black;
+    }
+
+.footer {
+    background-color: lightgray;
+    }
+
+@media screen and (max-width: 1050px) {
+       .logo {
+  max-width: 100%;
+  height: auto;
+  padding-top: 4px;
+}
+    .h4 {
+    font-size: 1.5em; 
+  }
+   .nav-item {
+        padding-top: 3vh;
+    }
+    #left, #centre, #right {
+    text-align: center;
+    }
+    .intropicindex { 
+    height: auto;
+    background:
+        url(/AWMCE/brand.jpg)
+        rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    background-attachment: fixed;   
+    background-size:80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: auto;
+     }
+.slideshow {
+    width:80vw;
+    margin:0 auto;
+}
+    }
+
+@media screen and (min-width: 750px) and (max-width: 1050px) {
+ .headerpic { 
+    background:
+        url(/AWMCE/header.jpg)
+        rgba(0, 0, 0, 0.3);
+    background-blend-mode: darken;
+    background-size: cover;
+    font-weight:bold;
+	color:#ffffff;
+    margin-bottom: 0px;
+    padding-top: 10vh;
+    padding-bottom: 2vh;
+	}
