@@ -6,9 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Albury-Wodonga Multicultural Community Events (AWMCE)</title>
         <meta name="description" content="Albury-Wodonga Multicultural Community Events (AWMCE)">
-        <link rel="stylesheet" type="text/css" href="bootstrap-5.3.1-dist/bootstrap-5.3.1-dist/css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="bootstrap.css">
         <link rel="stylesheet" href=" https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">   
-        <script src="bootstrap-5.3.1-dist/bootstrap-5.3.1-dist/js/bootstrap.bundle.js"></script>
+        <script src="bootstrap.bundle.js"></script>
         <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
         <link rel="stylesheet" type="text/css" href="styles.css">
         <link rel="icon" href="favicon.jpg" type="image/gif">
