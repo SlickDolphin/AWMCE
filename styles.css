@@ -173,3 +173,7 @@ p.services {
     padding-top: 10vh;
     padding-bottom: 2vh;
 	}
+.projectimg {
+    max-width: 80%;
+    height: auto;
+}
