@@ -158,6 +158,10 @@ p.services {
     width:80vw;
     margin:0 auto;
 }
+.projectimg {
+    max-width: 80%;
+    height: auto;
+}
     }
 
 @media screen and (min-width: 750px) and (max-width: 1050px) {
